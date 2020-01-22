@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "PT Serif", serif;
+  font-family: Arial, sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,4 +21,39 @@ html {
 
 body {
   margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #0074d9;
+}
+
+.grid {
+  background-color: #e2e2e2;
+}
+
+.btn {
+  display: flex;
+  margin: 0;
+  padding: .4em .75em .3em;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #e2e2e2;
+  border-radius: 8px;
 }
